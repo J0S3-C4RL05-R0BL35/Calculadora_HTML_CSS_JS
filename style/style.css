@@ -1,6 +1,7 @@
 body{
     background-color:aqua;
     color: aliceblue;
+    font-family: 'Rajdhani', sans-serif;
 }
 /*Calculadora base*/
 div.calcIn {
@@ -12,7 +13,7 @@ div.calcIn {
 }
 
 /*Pantalla*/
-div.pantalla{
+div.pantalla {
     background-color: black;
     height: 90px;
     margin: 20px 30px;
@@ -21,3 +22,15 @@ div.pantalla{
     text-align: right;
     font-size: 80px;
 }
+/*Números*/
+div.numbers > div{
+    background-color: #2b0022ff;
+    color: #eeaaffff;
+    width: 90px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    }
