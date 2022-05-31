@@ -23,12 +23,12 @@ div.pantalla {
     font-size: 80px;
 }
 /*Números*/
-div.numbers > div{
+div.numbers > div, div.process > div{
     background-color: #2b0022ff;
     color: #eeaaffff;
     width: 90px;
     height: 80px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     font-size: 60px;
     text-align: center;
