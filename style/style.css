@@ -5,32 +5,54 @@ body{
 }
 /*Calculadora base*/
 div.calcIn {
- background-color: #550044ff;
- width:430px;
- height: 580px;
- border-radius: 40px;
- padding: 10px;
+    background-color: #550044ff;
+    width:430px;
+    height: 670px;
+    border-radius: 40px;
+    padding: 10px;
+ 
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 /*Pantalla*/
 div.pantalla {
     background-color: black;
-    height: 90px;
-    margin: 20px 30px;
+    height: 140px;
+    margin: 10px 20px;
     padding: 10px;
     border-radius: 20px;
     text-align: right;
     font-size: 80px;
 }
 /*Números*/
-div.numbers > div, div.process > div{
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.process{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+div.numbers > div, div.process > div, .ecual{
     background-color: #2b0022ff;
     color: #eeaaffff;
-    width: 90px;
-    height: 80px;
-    margin: 10px;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 60px;
     text-align: center;
-    padding-top: 10px;
+    }
+
+    .ecual{
+        height: 380px;
     }
